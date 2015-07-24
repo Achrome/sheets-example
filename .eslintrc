@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel"
+  ],
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "forOf": true,
+    "arrowFunctions": true,
+    "classes": true,
+    "defaultParams": true,
+    "destructuring": true,
+    "generators": true,
+    "modules": true,
+    "restParams": true,
+    "spread": true,
+    "superInFunctions": true,
+    "templateStrings": true
+  },
+  "rules": {
+    "eqeqeq": 2,
+    "curly": 2,
+    "strict": 1,
+    "quotes": [1, "single"],
+    "new-cap": 0,
+    "block-scoped-var": 0,
+    "space-in-brackets": 0,
+    "babel/block-scoped-var": 1,
+    "babel/object-shorthand": 1,
+    "babel/generator-star": 0,
+    "babel/generator-star-spacing": 0,
+    "babel/new-cap": 1,
+    "babel/space-in-brackets": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "LOG": true
+  }
+}

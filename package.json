@@ -1,0 +1,26 @@
+{
+  "name": "sheets-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashwin Mukhija <achromatic.rainbow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.3",
+    "babel-core": "^5.8.3",
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "co-request": "^0.2.1",
+    "jws": "^3.1.0",
+    "ramda": "^0.17.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.26",
+    "eslint": "^0.24.1",
+    "eslint-plugin-babel": "^1.2.0"
+  }
+}
